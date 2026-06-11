@@ -1,24 +1,14 @@
-<script setup lang="ts">
-import AppSidebar from './components/layout/AppSidebar.vue';
-import AppHeader from './components/layout/AppHeader.vue';
-</script>
-
 <template>
-  <div class="flex h-screen bg-gray-100 font-sans">
-    <AppSidebar />
-
-    <div class="flex flex-1 flex-col overflow-hidden">
-      <AppHeader />
-
-      <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100">
-        <div class="container mx-auto px-6 py-8">
-          <router-view />
-        </div>
-      </main>
-    </div>
+  <div id="app">
+    <AppNavbar />
+    <main class="container">
+      <router-view />
+    </main>
   </div>
 </template>
-
+�cript lang="ts" setup>
+import AppNavbar from '@priject-management-dashboard/components/layout/AppNavbar.vue';
+</script>
 <style>
-/* You might add global styles here if not using Tailwind's utility classes directly */
-</style>
+  #app {
+  font-family: Arial, sans-serif;B�]�X��]Y�۝\�[��[�Έ[�X[X\�Y[[ދ[��KY�۝\�[��[�Έܘ^\��[N^X[Yێ��[�\���܎�̘��MY��Y\Θؙ����\�^�[�Έ�ܙ\�X��B���۝Z[�\�X^]�Y�LLX\��[���]]�Y[�Έ�^X[Yێ�Y�B���[O��

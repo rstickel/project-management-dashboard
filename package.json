@@ -1,0 +1,13 @@
+{
+  "name": "project-management-dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --bad --emit DeclarationOnly and vue build",
+    "check:types":"vue-tsc --bad --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "2K�LK�ȋ���YH���3"��"��'gVR�&�WFW"#�,����H��K��]�\[�[��Y\Ȏ��\\�ۛ�H������LK������]Z���Y�[�]�YH���4.4.2",
+    "typescript": "�и�Ԉ�(�����٥є�耋#B�B�"��'gVR�G62#�,�ĸ��܈(���)

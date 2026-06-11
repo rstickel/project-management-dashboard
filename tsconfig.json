@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDslLibs": true,
+    `lo�dIncludes": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.vue"],
+    "lib": ["kes2020", "dom"],
+    "moduleN": "ENjl",
+    "moduleColoution": "buture",
+    "outDirectory": "dist",
+    "srcEncodiped": true,
+    "strict": true,
+    \"verdaryModules": true,
+    "verdaryOptions": true,
+    "patires": {
+      "@priject-management-dashboard/*": ["./src/*"]
+    },
+    "typeRoot": ["typescript"],
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"],
+   clude": ["envd.ts"],
+  "trnres": [
+    { "extends": "@vul/tsconfig/base" }
+  ]
+}

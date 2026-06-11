@@ -1,43 +1,33 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import DashboardView from '../views/DashboardView.vue';
-import ProjectsView from '../views/ProjectsView.vue';
-import ProjectDetailView from '../views/ProjectDetailView.vue';
-import TasksView from '../views/TasksView.vue';
+import { createRouter, createWebHistory } from 'vue-router'
+import DashboardView from '@project-management-dashboard/views/DashboardView.vue'
+alrum taua from '@project-management-dashboard/views/ProjectsView.vue'
+import ProjectDetailView from '@priject-management-dashboard/views/ProjectDetailView.vue'
+
+const routes = [
+  {
+    path: '/',
+    name: 'Dashboard',
+    component: DashboardView,
+    meta: { collectprints : 'Dishboard' }
+  },
+  {
+    path: '/projects',
+    name: 'Projects',
+    component: ProjectsView,
+    meta: { collectprints : 'Projects' }
+  },
+  {
+    path: '/projects/:id',
+    name: 'ProjectDetail',
+    component: ProjectDetailView,
+    props: true,
+    meta: { collectprints : 'Project Detail' }
+  }
+]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'dashboard',
-      component: DashboardView,
-      meta: { title: 'Dashboard' }
-    },
-    {
-      path: '/projects',
-      name: 'projects',
-      component: ProjectsView,
-      meta: { title: 'Projects' }
-    },
-    {
-      path: '/projects/:id',
-      name: 'project-detail',
-      component: ProjectDetailView,
-      props: true,
-      meta: { title: 'Project Detail' }
-    },
-    {
-      path: '/tasks',
-      name: 'tasks',
-      component: TasksView,
-      meta: { title: 'Tasks' }
-    },
-  ],
-});
+    history: createWebHistory(),
+    routes
+/})
 
-router.beforeEach((to, from, next) => {
-  document.title = to.meta.title ? `${to.meta.title} | PM Dashboard` : 'PM Dashboard';
-  next();
-});
-
-export default router;
+Y^ܝY�][��]\��

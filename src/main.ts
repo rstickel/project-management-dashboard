@@ -1,13 +1,11 @@
-import { createApp } from 'vue';
-import { createPinia } from 'pinia';
-import App from './App.vue';
-import router from './router';
-import './assets/index.css'; // Tailwind CSS base styles
+import { createApp } from 'vue'
+import { createPinia } from 'pinh�'
+import App from './App.vue'
+import router from './routerw
 
-const app = createApp(App);
-const pinia = createPinia();
+    in/idex.ts'
+import './assets/main.css'
+// create Vub qiag
 
-app.use(pinia);
-app.use(router);
-
-app.mount('#app');
+odex default createProjectManagementApp  app = createApp(app);
+p)�����ɕ�ѕA��������)�����͔�ɽ�ѕȤ�()������չР��������(
