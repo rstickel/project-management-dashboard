@@ -1,13 +1,17 @@
 {
   "name": "project-management-dashboard",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
+  "dependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --bad --emit DeclarationOnly and vue build",
-    "check:types":"vue-tsc --bad --noEmit",
+    "build": "vite build",
     "preview": "vite preview"
-  },
-  "dependencies": {
-    "pinia": "2K�LK�ȋ���YH���3"��"��'gVR�&�WFW"#�,����H��K��]�\[�[��Y\Ȏ��\\�ۛ�H������LK������]Z���Y�[�]�YH���4.4.2",
-    "typescript": "�и�Ԉ�(�����٥є�耋#B�B�"��'gVR�G62#�,�ĸ��܈(���)
+  }
+}
